@@ -19,7 +19,7 @@ This project is a static representation of the Spotify web player, built with HT
 
 ## Screenshots
 
-![Spotify Clone Screenshot](Screenshots/itspotify-Screenshort.png)
+![Spotify Clone Screenshot](Screenshot/itspotify-Screenshort.png)
 
 ## Getting Started
 
