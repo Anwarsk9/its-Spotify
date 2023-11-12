@@ -1,0 +1,330 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="icon" href="./Spotify assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="sidebar">
+      <div class="nav">
+        <div class="nav-option" style="opacity: 1">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-option">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+      <div class="library">
+        <div class="options">
+          <div class="lib-options">
+            <img src="./Spotify assets/library_icon.png" alt="library icon" />
+            <a href="#">Your Library</a>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i id="arrow-icon" class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="lib-boxes">
+          <div class="box">
+            <div class="box-p1">Create your first playlist</div>
+            <div class="box-p2">It's easy, we'll help you</div>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="box">
+            <div class="box-p1">Let's find some podcasts to follow</div>
+            <div class="box-p2">we'll keep you updated on new episodes</div>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_content">
+      <div class="sticky-nav">
+        <div class="sticky-nav-icons">
+          <img id="sticky-img1" src="./Spotify assets/backward_icon.png" alt="" />
+          <img id="sticky-img2" src="./Spotify assets/forward_icon.png" alt="" />
+        </div>
+        <div class="sticky-nav-options">
+          <button class="sticky-badge" id="sticky-badge1">
+            Explore Premium
+          </button>
+          <button class="sticky-badge" id="sticky-badge2">
+            <i class="fa-regular fa-circle-down"></i>Install App
+          </button>
+          
+          <i id="sticky-icon" class="fa-regular fa-user"></i>
+        </div>
+      </div>
+
+      <h2>Recently Played</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card1img.jpeg" alt="" />
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played ...</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/focus2.jpeg" alt="" />
+          <p class="card-title">Focus Music 100+ Hours</p>
+          <p class="card-info">Focus 100+ Hours Songs Makes Your Mind Focus ...</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card14.jpeg" alt="" />
+          <p class="card-title">Daily Mix 1</p>
+          <p class="card-info">Charlie Puth,Justin Biber,Alessia Cara ...</p>
+        </div>
+      </div>
+      <h2>Trending now near you</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card2img.jpeg" alt="" />
+          <p class="card-title">All Out 2010s</p>
+          <p class="card-info">The biggest songs of the 2010s ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card13.jpeg" alt="" />
+          <p class="card-title">Charlie Puth Hits</p>
+          <p class="card-info">Tylor Swift,Alessia Cara and The Kid ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card55.jpeg" alt="" />
+          <p class="card-title">Tylor Swift Hits</p>
+          <p class="card-info">charlie puth, zain, justin biber ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card16.jpeg" alt="" />
+          <p class="card-title">Top 30 - Global</p>
+          <p class="card-info">Your daily updates of the most played ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card15.jpeg" alt="" />
+          <p class="card-title">Charlie Puth Radio</p>
+          <p class="card-info">Charlie Puth daily updates ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card10.jpeg" alt="" />
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played ...</p>
+        </div>
+      </div>
+
+      <h2>Featured Charts</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card6img.jpeg" alt="" />
+          <p class="card-title">Top Songs India</p>
+          <p class="card-info">Indian most played Top Songs...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card5img.jpeg" alt="" />
+          <p class="card-title">Top 100 - Global</p>
+          <p class="card-info">Top 100 Global Songs most played ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/card1img.jpeg" alt="" />
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily updates of the most played ...</p>
+        </div>
+      </div>
+      <h2>Focus</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/focus1.jpeg" alt="" />
+          <p class="card-title">All Out 2010s</p>
+          <p class="card-info">The biggest songs of the 2010s ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/focus6.jpg" alt="" />
+          <p class="card-title">All Out 2010s</p>
+          <p class="card-info">The biggest songs of the 2010s ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/focus2.jpeg" alt="" />
+          <p class="card-title">Focus Music 100+ Hours </p>
+          <p class="card-info">Focus 100+ Hours Songs Makes Your Mind Focus ...</p>
+        </div>
+
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/focus3.jpeg" alt="" />
+          <p class="card-title">All Out 2010s</p>
+          <p class="card-info">The biggest songs of the 2010s ...</p>
+        </div>
+      </div>
+      <h2>Instrumental</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument1.jpeg" alt="" />
+          <p class="card-title">Sleep</p>
+          <p class="card-info">Gentle Ambient piano to help you fall asleep.</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument2.jpeg" alt="" />
+          <p class="card-title">8 Hours of Guitar Sleep Music</p>
+          <p class="card-info">Peaceful Sleeping Songs On Gentle For Relaxation.</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument3.jpeg" alt="" />
+          <p class="card-title">Instruments</p>
+          <p class="card-info">Gentle Ambient piano to help you fall asleep.</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument4.jpeg" alt="" />
+          <p class="card-title">Hindustani Instrumental</p>
+          <p class="card-info">Gentle Ambient piano to help you fall love.</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument5.jpeg" alt="" />
+          <p class="card-title">Relax Working</p>
+          <p class="card-info">Instrumental Music Gentle Ambient piano to fall ...</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument6.jpeg" alt="" />
+          <p class="card-title">Disney Instrumental</p>
+          <p class="card-info">Disney Instrumental Music Gentle Ambient piano to fall ...</p>
+        </div>
+        <div class="card">
+          <img id="card-play-img" src="./Spotify assets/play_button.png" alt="" />
+          <img class="card-img" src="./Spotify assets/instument7.jpeg" alt="" />
+          <p class="card-title">Guitar Love Songs</p>
+          <p class="card-info">Gentle Ambient piano to help you fall in love.</p>
+        </div>
+      </div><br><br>
+      <div class="footer">
+        <div class="footer-nav">
+          <div class="company-links">
+            <div class="company-about">
+              <h3>Company</h3>
+              <a href="#">About</a>
+              <a href="#">Jobs</a>
+              <a href="#">For the Record</a>
+            </div>
+            <div class="company-communities">
+              <h3>Communities</h3>
+              <a href="#">For Artists</a>
+              <a href="#">Developers</a>
+              <a href="#">Advertising</a>
+              <a href="#">Investors</a>
+              <a href="#">Vendors</a>
+            </div>
+            <div class="company-lcons">
+              <h3>Useful Links</h3>
+              <a href="#">Support</a>
+              <a href="#">Free Mobile App</a>
+            </div>
+          </div>
+          <div class="social-media-links">
+            <div class="insta">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footer-line-bar"></div>
+        <div class="footer-line">
+          <div class="footer-policy">
+            <a href="#">Legal</a>
+            <a href="#">Privacy Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+            <a href="#">About Ads</a>
+            <a href="#">Accessibility</a>
+          </div>
+          <div class="copy-rights">
+            &copy; 2023 Spotify AB
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music_player">
+      <div class="music-details">
+        <img id="img1" src="./Spotify assets/card9.jpeg" alt="">
+        <div class="a0">
+          <a href="#" class ="a3" id="a1">Wildest Dreams</a>
+          <a href="#" class="a3" id="a2">Tylor Swift,JW Velly</a>
+        </div>
+        <div id="icons">
+          <i class="fa-regular fa-heart"></i>
+          <img src="./Spotify assets/picture-in-picture-96.png" alt="">
+        </div>
+      </div>
+
+      <div class="music-controls">
+        <div class="music-control-icons">
+          <img src="./Spotify assets/player_icon1.png" alt="">
+          <img src="./Spotify assets/player_icon2.png" alt="">
+          <img id="img3" src="./Spotify assets/player_icon3.png" alt="">
+          <img src="./Spotify assets/player_icon4.png" alt="">
+          <img src="./Spotify assets/player_icon5.png" alt="">
+        </div>
+        <div class="progress-control">
+          <p>01:27</p>
+          <input type="range" name="values" id="range2" min="0" max="100">
+          <p>2:56</p>
+        </div>
+      </div>
+
+      <div class="music-icons">
+        <img src="./Spotify assets/start-97png.png" alt="">
+        <img src="./Spotify assets/play-property-96.png" alt="">
+        <img src="./Spotify assets/smartphone-tablet-96.png" alt="">
+        <img id="sound" src="./Spotify assets/sound-96.png" alt="">
+        <input type="range" name="value" id="range" min="0" max="100">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
